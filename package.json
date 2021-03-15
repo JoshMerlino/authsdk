@@ -1,0 +1,41 @@
+{
+    "name": "auth-sdk",
+    "version": "1.0.0",
+    "description": "Easily implement authentication into your app with databases provided by Josh.",
+    "main": "lib/index.js",
+    "author": "Josh Merlino",
+    "license": "ISC",
+    "scripts": {
+        "watch-ts": "tsc -w",
+        "watch-js": "nodemon .",
+        "dev": "concurrently \"npm:watch-*\"",
+        "start": "node .",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/is-url": "^1.2.28",
+        "@types/mime-types": "^2.1.0",
+        "@types/node": "^14.14.31",
+        "@types/node-fetch": "^2.5.8",
+        "@types/uuid": "^8.3.0",
+        "@typescript-eslint/eslint-plugin": "^4.17.0",
+        "@typescript-eslint/parser": "^4.17.0",
+        "concurrently": "^6.0.0",
+        "eslint": "^7.21.0",
+        "nodemon": "^2.0.7",
+        "typescript": "^4.2.2",
+        "typescript-eslint": "0.0.1-alpha.0"
+    },
+    "dependencies": {
+        "file-type": "^16.3.0",
+        "form-data": "^4.0.0",
+        "is-file": "^1.0.0",
+        "is-image": "^3.0.0",
+        "is-image-url": "^1.1.8",
+        "is-url": "^1.2.4",
+        "isobject": "^4.0.0",
+        "mime-types": "^2.1.29",
+        "node-fetch": "^2.6.1",
+        "uuid": "^8.3.2"
+    }
+}
