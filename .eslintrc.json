@@ -9,15 +9,12 @@
     "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
         "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": ["@typescript-eslint"],
     "rules": {
-		"indent": ["error", "tab"],
+        "indent": ["error", "tab"],
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "double"],
         "semi": ["error"],
@@ -28,7 +25,6 @@
         "comma-dangle": ["error"],
         "no-extra-parens": ["error"],
         "no-loss-of-precision": ["error"],
-        "no-async-promise-executor": ["off"],
         "no-template-curly-in-string": ["error"],
         "no-unreachable-loop": ["error"],
         "no-unsafe-optional-chaining": ["error"],
