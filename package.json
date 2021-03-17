@@ -1,6 +1,6 @@
 {
     "name": "authsdk.js",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "description": "Easily implement authentication into your app with databases provided by Josh.",
     "main": "lib/index.js",
     "author": "Josh Merlino",
@@ -11,7 +11,7 @@
         "dev": "concurrently \"npm:watch-*\"",
         "start": "node .",
         "build": "tsc",
-		"wiki": "cd docs && git pull && git add . && git commit -m \"Build documentation @ `date`\" && git push -fu origin master"
+        "wiki": "cd docs && git pull && git add . && git commit -m \"Build documentation @ `date`\" && git push -fu origin master"
     },
     "devDependencies": {
         "@types/is-url": "^1.2.28",

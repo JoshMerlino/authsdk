@@ -7,7 +7,7 @@ See the [wiki](https://github.com/JoshMerlino/auth-sdk/wiki).
 ### Example
 
 ```bash
-npm i -s authsdk yaml prompt-sync
+npm i -s authsdk.js yaml prompt-sync
 ```
 
 ```ts
