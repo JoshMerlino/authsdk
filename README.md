@@ -1,4 +1,4 @@
-# auth-sdk
+# authsdk
 Easily implement authentication into your app with databases provided by Josh.
 
 ### Documentation
@@ -7,11 +7,11 @@ See the [wiki](https://github.com/JoshMerlino/auth-sdk/wiki).
 ### Example
 
 ```bash
-npm i -s auth-sdk yaml prompt-sync
+npm i -s authsdk yaml prompt-sync
 ```
 
 ```ts
-import { Client, SessionID } from "auth-sdk";
+import { Client, SessionID } from "authsdk.js";
 import YAML from "yaml";
 import { readFile, writeFile } from "fs/promises";
 import Prompt from "prompt-sync";

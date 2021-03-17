@@ -3,6 +3,7 @@ import { v5 as hash } from "uuid";
 import isObject from "isobject";
 import { Me } from "./Me";
 import { SessionID } from "./SessionID";
+import { SSOOptions } from "./SSOOptions";
 
 export class Client {
 
@@ -25,7 +26,7 @@ export class Client {
 
 		const body = isObject(postData) ? JSON.stringify(postData) : postData
 
-		return await fetch(`https://joshm.us.to/api/auth-sdk/v1/${path}`, {
+		return await fetch(`https://joshm.us.to/api/authsdk/v1/${path}`, {
         	method,
         	headers: {
 				...headers,
@@ -76,6 +77,11 @@ export class Client {
 		this.setSession(session);
 		return session;
 
+	}
+
+	// SSO login
+	async sso(options: SSOOptions) {
+		return this.__fetch("sso", "PUT", { ...options, client_id: this.client_id });
 	}
 
 	// Get current user

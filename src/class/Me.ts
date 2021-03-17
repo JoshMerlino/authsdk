@@ -43,7 +43,7 @@ export class Me {
 	}
 
 	avatarURL(size: number = 256) {
-		return `https://joshm.us.to/api/auth-sdk/v1/avatar?id=${this._rawuser.id}&size=${size}`;
+		return `https://joshm.us.to/api/authsdk/v1/avatar?id=${this._rawuser.id}&size=${size}`;
 	}
 
 	get emailAddress() {
