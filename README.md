@@ -2,8 +2,7 @@
 Easily implement authentication into your app with databases provided by Josh.
 
 ### Documentation
-* [Client](./docs/https://github.com/JoshMerlino/auth-sdk/blob/main/docs/Client.md)
-* [Me](./docs/https://github.com/JoshMerlino/auth-sdk/blob/main/docs/Me.md)
+See the [wiki](https://github.com/JoshMerlino/auth-sdk/wiki).
 
 ### Example
 
