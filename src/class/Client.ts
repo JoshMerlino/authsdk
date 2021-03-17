@@ -3,7 +3,7 @@ import { v5 as hash } from "uuid";
 import isObject from "isobject";
 import { Me } from "./Me";
 import { SessionID } from "./SessionID";
-import { SSOOptions } from "./SSOOptions";
+import { SSOOptions } from "../types";
 
 export class Client {
 

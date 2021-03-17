@@ -1,10 +1,3 @@
-export interface SessionID {
-	id: number;
-	user_id: number;
-	md5: string;
-	client_id: string;
-}
-
 export class SessionID {
 
 	id: number;
